@@ -1,0 +1,15 @@
+{
+  "name": "announce-embed-bot",
+  "version": "1.0.0",
+  "description": "Discord bot with /announce and /embed slash commands that walk you through Title -> Message -> Image and generate/post an embed.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "deploy": "node deploy-commands.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
